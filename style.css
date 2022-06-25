@@ -1,0 +1,85 @@
+header{
+    background: #d8d6d6;
+    padding: 20px 0;
+}
+
+main{
+    background: linear-gradient(#d8d6d6, #000000);
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-weight: bold;
+    padding: 2em 2em;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    clear: left;
+}
+
+.sobre-mim img{
+    margin-right: 20px;
+    width: 16%;
+    float: left;
+    border: #000000 solid 5px;
+    border-radius: 25px;
+}
+
+p{
+    font-size: 1.5em;
+    margin: 0 10px;
+    color:#121a8f;
+    padding: 0 0 10px;
+}
+
+.sobre-mim p:nth-child(5) {
+    margin-top: 1.5em;
+    text-align: right;
+    color: #000000;
+    font-weight: bold;
+    padding: 0 0 20px;
+    font-size: 22px;
+}
+
+.spotify{
+    padding-left: 70%;
+}
+
+.rede-social {
+    margin-top: 1.5em;
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+}
+
+.coisas-curto{
+    padding-bottom: 20px;
+}
+
+.coisas-curto a{
+    font-size: 2em;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.agradecimentos p{
+    text-align: center;
+    padding: 0 0 10px;
+}
+
+footer{
+    text-align: center;
+    background: url(./imagens/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    font-size: 13px;
+    color: #FFFFFF;
+}
