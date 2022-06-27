@@ -1,10 +1,15 @@
 header{
-    background: #d8d6d6;
+    background: #FFFFFF;
     padding: 20px 0;
 }
 
+.logo{
+    text-align: left;
+    margin: 0 25%;
+}
+
 main{
-    background: linear-gradient(#d8d6d6, #000000);
+    background: linear-gradient(#FFFFFF, #000000);
 }
 
 .caixa{
