@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
 header{
     background: #FFFFFF;
     padding: 20px 0;
@@ -28,6 +38,9 @@ main{
     clear: left;
 }
 
+.titulo-principal::first-letter{
+    color: #0000FF;
+}
 .sobre-mim img{
     margin-right: 20px;
     width: 16%;
@@ -37,23 +50,27 @@ main{
 }
 
 p{
-    font-size: 1.5em;
+    font-size: 1.3rem;
     margin: 0 10px;
     color:#121a8f;
     padding: 0 0 10px;
 }
 
 .sobre-mim p:nth-child(5) {
-    margin-top: 1.5em;
-    text-align: right;
+    margin: 1.5em 0 0 0;
     color: #000000;
     font-weight: bold;
-    padding: 0 0 20px;
+    padding: 0 0 10px;
     font-size: 22px;
 }
 
 .spotify{
-    padding-left: 70%;
+    display:inline;
+}
+
+.gif{
+    border-radius: 90px;
+    margin-left: 1rem;
 }
 
 .rede-social {
@@ -68,14 +85,25 @@ p{
 }
 
 .coisas-curto a{
-    font-size: 2em;
-    padding: 20px;
+    font-size: 1.3rem;
+    padding: 2px 20px;
+    margin-left: 1.7rem;
     text-decoration: none;
+    display: inline-block;
+    background: #1e087e;
+    border-radius: 8px;
+    color:#FFFFFF;
+}
+
+.coisas-curto a:hover{
+    background: #444edf;
+    transition: all .3s ease-in-out;
 }
 
 .agradecimentos p{
     text-align: center;
     padding: 0 0 10px;
+    
 }
 
 footer{
