@@ -39,7 +39,7 @@ main{
 }
 
 .titulo-principal::first-letter{
-    color: #0000FF;
+    color: #5353e0;
 }
 .sobre-mim img{
     margin-right: 20px;
@@ -52,7 +52,7 @@ main{
 p{
     font-size: 1.3rem;
     margin: 0 10px;
-    color:#121a8f;
+    color:#5353e0;
     padding: 0 0 10px;
 }
 
@@ -84,21 +84,33 @@ p{
     padding-bottom: 20px;
 }
 
-.coisas-curto a{
-    font-size: 1.3rem;
-    padding: 2px 20px;
-    margin-left: 1.7rem;
-    text-decoration: none;
-    display: inline-block;
-    background: #1e087e;
-    border-radius: 8px;
-    color:#FFFFFF;
+.caixa-coisas-curto{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.coisas-curto a:hover{
-    background: #444edf;
-    transition: all .3s ease-in-out;
+.img{
+    border-radius: 10px 10px 0 0;
 }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    display: inline-block;
+    margin: 2rem 60px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background: #5353e0;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
 
 .agradecimentos p{
     text-align: center;
