@@ -13,9 +13,33 @@ header{
     padding: 20px 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .logo{
-    text-align: left;
     margin: 0 25%;
+    display: inline;
+}
+
+.label{
+    padding: 5px;
+    color:#FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    left: 20%;
+}
+
+.twitter{
+    background-color: #5353e0;
+}
+
+.github{
+    background-color: #0808538a;
+}
+
+.linkedin{
+    background-color: #5353e0;
 }
 
 main{
@@ -31,7 +55,7 @@ main{
 .titulo-principal{
     text-align: center;
     font-weight: bold;
-    padding: 2em 2em;
+    padding: 2rem 2rem;
     font-size: 30px;
     color: #000000;
     text-transform: uppercase;
@@ -47,16 +71,17 @@ main{
     float: left;
     border: #000000 solid 5px;
     border-radius: 25px;
+    text-align: justify;
 }
 
 p{
     font-size: 1.3rem;
     margin: 0 10px;
     color:#5353e0;
-    padding: 0 0 10px;
+    padding: 0 0 1.5rem;
 }
 
-.sobre-mim p:nth-child(5) {
+.caixa-sobre-mim p{
     margin: 1.5em 0 0 0;
     color: #000000;
     font-weight: bold;
@@ -65,23 +90,16 @@ p{
 }
 
 .spotify{
-    display:inline;
+    display: inline;
 }
 
 .gif{
     border-radius: 90px;
-    margin-left: 1rem;
-}
-
-.rede-social {
-    margin-top: 1.5em;
-    text-align: left;
-    color: #000000;
-    font-weight: bold;
+    margin-left: 3rem;
 }
 
 .coisas-curto{
-    padding-bottom: 20px;
+    padding-bottom: 1rem;
 }
 
 .caixa-coisas-curto{
@@ -113,8 +131,8 @@ p{
   }
 
 .agradecimentos p{
-    text-align: center;
-    padding: 0 0 10px;
+    text-align: justify;
+    padding: 0 0 1.5rem;
     
 }
 
