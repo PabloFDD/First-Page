@@ -14,12 +14,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 0.4px solid #797474;
+    border-bottom: 0.4px solid #000000;
 }
 
 .cabecalho a{
     text-decoration: none;
 }
+
 
 .logo{
     display: flex;
@@ -28,15 +29,15 @@
 
 .social-media img{
     width: 30px;
-    padding: 3px
+    padding: 3px;
+    filter:contrast(0%);
 }
-
-
 
 .caixa{
     width: 940px;
     position: relative;
     margin: 0 auto;
+    height: 100vh;
 }
 
 .titulo-principal{
@@ -50,8 +51,9 @@
 }
 
 .titulo-principal::first-letter{
-    color: #5353e0;
+    color: #0000FF;
 }
+
 .sobre-mim img{
     margin-right: 20px;
     width: 16%;
@@ -61,16 +63,16 @@
     text-align: justify;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .paragrafo{
     font-size: 1.3rem;
     margin: 0 10px;
-    color:#5353e0;
+    color:#0000FF;
     padding: 0 0 1.5rem;
-}
-
-.sobre-mim a{
-    text-decoration: none;
-    color: #000000;
 }
 
 .caixa-sobre-mim{
@@ -85,28 +87,26 @@
     font-weight: bold;
     padding: 10px 0;
     font-size: 20px;
-    border-top: 0.4px solid #797474;
+    border-top: 0.4px solid #000000;
 }
 
 .spotify{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.coisas-curto{
-    padding-bottom: 3rem;
+    border-radius: 10px;
 }
 
 .caixa-coisas-curto{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    border-radius: 25px;
 }
 
 .img{
     border-radius: 10px 10px 0 0;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
     width: 20%;
     display: inline-block;
@@ -115,7 +115,7 @@
     font-weight: bold;
     color: #FFFFFF;
     border-radius: 10px;
-    background: #5353e0;
+    background: #0000FF;
   }
   
   .card:hover {
@@ -126,23 +126,33 @@
     padding: 2px 16px;
   }
 
-.agradecimentos p{
-    text-align: justify;
-    padding: 0 0 1.5rem;
-}
-
-.agradecimentos a{
-    text-decoration: none;
-    color:#FFFFFF;
-}
-
 footer{
+    margin-top: 3rem;
     text-align: center;
     padding: 2rem;
-    border-top: 0.4px solid #797474;
+    border-top: 0.4px solid #000000;
 }
 
 .copyright{
     font-size: 13px;
     color: #000000;
+}
+
+.tituloJogos{
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem 2rem;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.tituloJogos::first-letter{
+    color: #0000FF;
+}
+
+.listaJogos{
+    font-size: 1.3rem;
+    margin-left: 10px;
+    color:#0000FF;
 }
